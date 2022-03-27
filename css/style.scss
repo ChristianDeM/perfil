@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    color: white;
+}
+
+h1, h2, h3, h4,h5,h6, {
+    color: rgb(0, 144, 43);
+    font-size: border;
+}
+
+span{
+    color:white
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: #34df83;
+    border-color: rgb(0, 144, 43);
+    
+}
+
+$icobig: 80px;
+$icomid: 50px;
+
+@mixin espeacio {
+    padding-top: 7%;    
+    padding-bottom: 7%; 
+}
+
+@mixin textt {
+    p{
+        text-align: center;
+        font-size: bold;   
+    }
+
+}
+
+.baner{
+    background-image: url(../img/baner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+
+.about{
+    @include espeacio();
+    img {
+        height: auto;
+        width: 50%;
+        transform: translate( 50%);
+        }
+    i{
+        font-size: $icobig;
+        color: rgb(0, 144, 43);
+    }
+}
+.github{
+    background-color: rgba(7, 255, 123, 0.157);
+    padding: 50px 50px;
+}
+
+.abilities{
+    @include espeacio();
+        background-color: rgba(0, 20, 6, 0.123);   
+    i{
+     font-size: $icobig;
+     color: rgb(0, 144, 43);
+    }
+}
+
+.portafolio{
+    @include espeacio();
+    .card{
+    
+        background-color: black;
+        text-align: center;
+    }
+}
+
+.parrallax{
+ background-image: url("../img/baner.png");
+ min-height: 200px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ filter: blur(80%);
+  img{
+    @include espeacio();
+    width: 25%; 
+    
+  }
+  
+
+  p{
+      text-align: center;
+     
+  }
+}

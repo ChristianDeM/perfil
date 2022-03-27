@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+}
+
+p {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00902b;
+  font-size: border;
+}
+
+span {
+  color: white;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #34df83;
+  border-color: #00902b;
+}
+
+.baner {
+  background-image: url(../img/baner.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+
+.about {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.about img {
+  height: auto;
+  width: 50%;
+  transform: translate(50%);
+}
+.about i {
+  font-size: 80px;
+  color: #00902b;
+}
+
+.github {
+  background-color: rgba(7, 255, 123, 0.157);
+  padding: 50px 50px;
+}
+
+.abilities {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: rgba(0, 20, 6, 0.123);
+}
+.abilities i {
+  font-size: 80px;
+  color: #00902b;
+}
+
+.portafolio {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.portafolio .card {
+  background-color: black;
+  text-align: center;
+}
+
+.parrallax {
+  background-image: url("../img/baner.png");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(80%);
+}
+.parrallax img {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  width: 25%;
+}
+.parrallax p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
